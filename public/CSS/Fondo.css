@@ -1,0 +1,118 @@
+/*Estructura de toda la pagina*/
+*{
+    /*Margen*/
+    margin: 0;
+    padding:0;
+  
+}
+body{
+    background-attachment: fixed;
+}
+/*Inicio de las animaciones*/
+@keyframes Animacion{
+
+    0%{
+        opacity:1;
+    }
+    20%{
+        opacity:1 ;
+    }
+    30%{
+        opacity: 0;
+    }
+
+    90%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
+@-webkit-keyframes Animacion{
+    0%{
+        opacity:1;
+    }
+    20%{
+        opacity:1 ;
+    }
+    30%{
+        opacity: 0;
+    }
+
+    90%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
+
+@-moz-keyframes Animacion{
+    0%{
+        opacity:1;
+    }
+    20%{
+        opacity:1 ;
+    }
+    30%{
+        opacity: 0;
+    }
+
+    90%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+ /*#Esto es in id*/
+#fondo1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../Recursos/background.jpg);
+  background-attachment: fixed;
+  min-height: 613px;
+    animation: Animacion 24s linear 18s infinite;
+    -webkit-animation: Animacion 24s linear 18s infinite;
+    -moz-animation: Animacion 24s linear 18s infinite;
+
+}
+#fondo2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../Recursos/background2.jpg);
+    background-attachment: fixed;
+  min-height: 613px;
+    animation: Animacion 24s linear 12s infinite;
+    -webkit-animation: Animacion 24s linear 12s infinite;
+    -moz-animation: Animacion 24s linear 12s infinite;
+
+}
+#fondo3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../Recursos/background3.jpg);
+    background-attachment: fixed;
+  min-height: 613px;
+    animation: Animacion 24s linear 6s infinite;
+    -webkit-animation: Animacion 24s linear 6s infinite;
+    -moz-animation: Animacion 24s linear 6s infinite;
+
+}
+#fondo4{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../Recursos/background4.jpg);
+    background-attachment: fixed;
+  min-height: 613px;
+    animation: Animacion 24s linear 0s infinite;
+    -webkit-animation: Animacion 24s linear 0s infinite;
+    -moz-animation: Animacion 24s linear 0s infinite;
+
+}
